@@ -6,7 +6,7 @@ const config = {
     sortBy: 'stars', // stars | updated
     limit: 6, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
@@ -33,20 +33,8 @@ const config = {
       '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Data Science',
     'Python',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'SQL',
   ],
   experiences: [
     {
@@ -57,14 +45,14 @@ const config = {
       companyLink: 'https://example.comhttps://www.facebook.com/aic.fsoft',
     },
   ],
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'TOEIC',
+      body: 'score: 865',
+      year: 'October 2023',
+      link: ''
     },
-  ], */
+  ],
   education: [
     {
       institution: 'Hanoi University of Science and Technology',
@@ -99,9 +87,9 @@ const config = {
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
+    // source: 'dev', // medium | dev
+    // username: 'arifszn', // to hide blog section, keep it empty
+    // limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -172,7 +160,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Dreaming ❤️`,
+  footer: `Hi I'm Hai Nam ❤️`,
 };
 
 export default config;
