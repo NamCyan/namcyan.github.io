@@ -81,32 +81,18 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: '[EMNLP-2023] The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation',
+      title: '1st place at Vietnamese Machine Reading Comprehension in VLSP 2021 competion',
       description:
-        'ai4code | ai4se | dataset | code-generation',
-      imageUrl: 'https://www.themoviedb.org/t/p/original/eMXA8Mbl9P9kNVGhMKqwr5Xni8C.jpg',
-      link: 'https://arxiv.org/abs/2305.06156',
-    },
-    {
-      title: '[PAKDD-2022] Auxiliary Local Variables for Improving Regularization/Prior Approach in Continual Learning',
-      description:
-        'continual-learning | dropout | auxiliary-variables',
-      imageUrl: '',
-      link: 'https://link.springer.com/chapter/10.1007/978-3-031-05933-9_2',
-    },
-    {
-      title: '[JCSCE-2021] ViMRC - VLSP 2021: Improving Retrospective Reader for Vietnamese Machine Reading Comprehension',
-      description:
-        'vlsp-2021 | machine-reading-comprehension | vietnamese | retrospective-reader',
+        'nlp | mrc | vlsp-2021',
       imageUrl: '',
       link: 'https://jcsce.vnu.edu.vn/index.php/jcsce/article/view/346',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
+    // source: 'dev', // medium | dev
+    // username: 'arifszn', // to hide blog section, keep it empty
+    // limit: 2, // How many posts to display. Max is 10.
   },
   publications: [
     {
@@ -132,7 +118,7 @@ const config = {
       year: 2021,
       conference: "JCSCE",
       description: 'continual-learning | dropout | auxiliary-variables',
-      keywords: ['vlsp-2021', 'machine-reading-comprehension' | 'vietnamese' | 'retrospective-reader'],
+      keywords: ['vlsp-2021', 'machine-reading-comprehension', 'vietnamese', 'retrospective-reader'],
       imageUrl: 'https://github.com/NamCyan/namcyan.github.io/blob/main/public/thevault.jpg',
       link: 'https://jcsce.vnu.edu.vn/index.php/jcsce/article/view/346',
     },
