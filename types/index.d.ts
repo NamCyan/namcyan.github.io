@@ -301,7 +301,7 @@ export interface Config {
 
 
   /**
-   * External Projects
+   * Publications
    */
   publications?: Array<Publications>;
 

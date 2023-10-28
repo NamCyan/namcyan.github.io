@@ -29,7 +29,7 @@ const Publications = ({ loading, publications, googleAnalytics }) => {
 
   const renderSkeleton = () => {
     let array = [];
-    for (let index = 0; index < publications.limit; index++) {
+    for (let index = 0; index < publications.length; index++) {
       array.push(
         <div className="card shadow-lg compact bg-base-100" key={index}>
           <div className="p-8 h-full w-full">
@@ -86,7 +86,7 @@ const Publications = ({ loading, publications, googleAnalytics }) => {
 
   const renderArticles = () => {
     return articles && articles.length ? (
-      articles.slice(0, publications.limit).map((article, index) => (
+      articles.map((article, index) => (
         <a
           className="card shadow-lg compact bg-base-100 cursor-pointer"
           key={index}
