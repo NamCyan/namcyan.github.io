@@ -110,8 +110,17 @@ const config = {
   },
   publications: [
     {
-      title: 'Auxiliary Local Variables for Improving Regularization/Prior Approach in Continual Learning',
+      title: 'The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation',
       year: 2023,
+      conference: "EMNLP",
+      description: 'continual-learning | dropout | auxiliary-variables',
+      keywords: ['ai4code', 'ai4se', 'dataset', 'code-understanding', 'code-generation'],
+      imageUrl: 'https://github.com/NamCyan/namcyan.github.io/blob/main/public/thevault.png',
+      link: 'https://arxiv.org/abs/2305.06156',
+    },
+    {
+      title: 'Auxiliary Local Variables for Improving Regularization/Prior Approach in Continual Learning',
+      year: 2022,
       conference: "PAKDD",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ["continual-learning", "dropout", "auxiliary-variables"],

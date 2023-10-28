@@ -137,9 +137,9 @@ const Publication = ({ loading, publications, googleAnalytics }) => {
                     <p className="text-base-content opacity-50 text-xs">
                       {article.conference}-{article.year}
                     </p>
-                    <p className="mt-3 text-base-content text-opacity-60 text-sm">
+                    {/* <p className="mt-3 text-base-content text-opacity-60 text-sm">
                       {article.description}
-                    </p>
+                    </p> */}
                     <div className="mt-4 flex items-center flex-wrap justify-center md:justify-start">
                       {article.keywords.map((category, index2) => (
                         <div
