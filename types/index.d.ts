@@ -250,6 +250,7 @@ export interface ExternalProjects {
 
 export interface Publication {
   title: string;
+  conference: string;
   description: string;
   imageUrl?: string;
   link: string;

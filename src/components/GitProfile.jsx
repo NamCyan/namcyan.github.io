@@ -284,6 +284,7 @@ GitProfile.propTypes = {
         title: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
         link: PropTypes.string.isRequired,
+        conference: PropTypes.string.isRequired,
         imageUrl: PropTypes.string,
         year: PropTypes.number,
         keywords: PropTypes.arrayOf(PropTypes.string),
