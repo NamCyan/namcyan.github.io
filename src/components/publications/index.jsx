@@ -194,8 +194,9 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
                   </div>
                   <div className="col-span-2">
                     <div className="grid grid-cols-1 gap-6">
-                      {renderSkeleton()
-                      }
+                      {loading
+                        ? renderSkeleton()
+                        : renderPublications()}
                     </div>
                   </div>
                 </div>
@@ -211,7 +212,7 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
 Publications.propTypes = {
   loading: PropTypes.bool.isRequired,
   publications: PropTypes.array,
-  googleAnalytics: PropTypes.object,
+  googleAnalytics: PropTypes.object.isRequired,
 };
 
 export default Publications;
