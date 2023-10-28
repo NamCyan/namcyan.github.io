@@ -43,8 +43,8 @@ const config = {
     {
       company: 'Mobifone IT Center',
       position: 'AI Engineer',
-      from: 'Jan 2021',
-      to: 'June 2021',
+      from: 'Jan 2022',
+      to: 'June 2022',
       companyLink: '',
     },
     {

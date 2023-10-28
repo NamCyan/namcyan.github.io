@@ -17,7 +17,7 @@ const displaySection = (publications) => {
     return false;
   }
 };
-
+console.log(publications)
 const Publications = ({ publications, loading, googleAnalytics }) => {
   // const [articles, setArticles] = useState(null);
 
