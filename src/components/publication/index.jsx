@@ -18,7 +18,7 @@ const displaySection = (publications) => {
   }
 };
 
-const Publications = ({ loading, publications, googleAnalytics }) => {
+const Publication = ({ loading, publications, googleAnalytics }) => {
   const [articles, setArticles] = useState(null);
 
   useEffect(() => {
@@ -97,7 +97,7 @@ const Publications = ({ loading, publications, googleAnalytics }) => {
             try {
               if (googleAnalytics?.id) {
                 ga.event({
-                  action: 'Click Publications Post',
+                  action: 'Click Publication Post',
                   params: {
                     post: article.title,
                   },
@@ -208,10 +208,10 @@ const Publications = ({ loading, publications, googleAnalytics }) => {
   );
 };
 
-Publications.propTypes = {
+Publication.propTypes = {
   loading: PropTypes.bool.isRequired,
   publications: PropTypes.array,
   googleAnalytics: PropTypes.object.isRequired,
 };
 
-export default Publications;
+export default Publication;

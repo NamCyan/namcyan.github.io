@@ -26,7 +26,7 @@ import PropTypes from 'prop-types';
 import '../assets/index.css';
 import { formatDistance } from 'date-fns';
 import ExternalProject from './external-project';
-import Publications from './publications';
+import Publication from './publication';
 
 const bgColor = 'bg-base-300';
 
@@ -209,7 +209,7 @@ const GitProfile = ({ config }) => {
                         externalProjects={sanitizedConfig.externalProjects}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
-                      <Publications
+                      <Publication
                         loading={loading}
                         publications={sanitizedConfig.publications}
                         googleAnalytics={sanitizedConfig.googleAnalytics}

@@ -248,7 +248,7 @@ export interface ExternalProjects {
   link: string;
 }
 
-export interface Publications {
+export interface Publication {
   title: string;
   description: string;
   imageUrl?: string;
