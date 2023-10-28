@@ -11,7 +11,6 @@ import Certification from './certification';
 import Education from './education';
 import Project from './project';
 import Blog from './blog';
-import Publications from './publications';
 import Footer from './footer';
 import {
   genericError,
@@ -27,6 +26,7 @@ import PropTypes from 'prop-types';
 import '../assets/index.css';
 import { formatDistance } from 'date-fns';
 import ExternalProject from './external-project';
+import Publications from './publications';
 
 const bgColor = 'bg-base-300';
 
@@ -214,11 +214,6 @@ const GitProfile = ({ config }) => {
                         publications={sanitizedConfig.publications}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
-                      {/* <Blog
-                        loading={loading}
-                        googleAnalytics={sanitizedConfig.googleAnalytics}
-                        blog={sanitizedConfig.blog}
-                      /> */}
                     </div>
                   </div>
                 </div>
