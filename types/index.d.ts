@@ -248,6 +248,15 @@ export interface ExternalProjects {
   link: string;
 }
 
+export interface Publications {
+  title: string;
+  description: string;
+  imageUrl?: string;
+  link: string;
+  year?: string;
+  keywords?: Array<string>;
+}
+
 export interface Education {
   institution?: string;
   degree?: string;
@@ -289,6 +298,12 @@ export interface Config {
    * External Projects
    */
   externalProjects?: Array<ExternalProjects>;
+
+
+  /**
+   * External Projects
+   */
+  publications?: Array<Publications>;
 
   /**
    * Certifications list
