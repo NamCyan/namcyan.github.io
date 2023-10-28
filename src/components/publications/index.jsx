@@ -17,7 +17,6 @@ const displaySection = (publications) => {
     return false;
   }
 };
-console.log(publications)
 const Publications = ({ publications, loading, googleAnalytics }) => {
   // const [articles, setArticles] = useState(null);
 
@@ -38,7 +37,7 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
   //     }
   //   }
   // }, []);
-
+  console.log(publications)
   const renderSkeleton = () => {
     let array = [];
     for (let index = 0; index < publications.length; index++) {
