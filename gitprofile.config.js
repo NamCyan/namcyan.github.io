@@ -112,8 +112,7 @@ const config = {
     {
       title: '[PAKDD-2022] Auxiliary Local Variables for Improving Regularization/Prior Approach in Continual Learning',
       year: 2023,
-      description:
-        'continual-learning | dropout | auxiliary-variables',
+      description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ["continual-learning", "dropout", "auxiliary-variables"],
       imageUrl: '',
       link: 'https://link.springer.com/chapter/10.1007/978-3-031-05933-9_2',

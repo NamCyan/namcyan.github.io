@@ -131,11 +131,11 @@ const Publications = ({ loading, publications, googleAnalytics }) => {
                     <h2 className="font-semibold text-base-content opacity-60">
                       {article.title}
                     </h2>
-                    <p className="text-base-content opacity-50 text-xs">
+                    {/* <p className="text-base-content opacity-50 text-xs">
                       {formatDistance(article.year, new Date(), {
                         addSuffix: true,
                       })}
-                    </p>
+                    </p> */}
                     <p className="mt-3 text-base-content text-opacity-60 text-sm">
                       {article.description}
                     </p>
