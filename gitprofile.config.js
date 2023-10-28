@@ -60,14 +60,14 @@ const config = {
     {
       institution: 'Hanoi University of Science and Technology',
       degree: 'Bachelor',
-      from: '2017',
-      to: '2021',
+      from: '7/2017',
+      to: '7/2021',
     },
     {
       institution: 'Hanoi University of Science and Technology',
       degree: 'Master',
-      from: '2021',
-      to: '2023',
+      from: '10/2021',
+      to: '10/2023',
     },
   ],
 
@@ -76,14 +76,14 @@ const config = {
     {
       title: '[EMNLP-2023] The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation',
       description:
-        'AI4Code, AI4SE, Dataset, Code generation',
+        'ai4code || ai4se || dataset || code-generation',
       imageUrl: 'https://github.com/FSoft-AI4Code/TheVault/blob/main/assets/the-vault-4-logo-png.png',
       link: 'https://arxiv.org/abs/2305.06156',
     },
     {
       title: '[PAKDD-2022] Auxiliary Local Variables for Improving Regularization/Prior Approach in Continual Learning',
       description:
-        'Continual learning, Dropout, Local variables',
+        'continual-learning || dropout || auxiliary-variables',
       imageUrl: '',
       link: 'https://link.springer.com/chapter/10.1007/978-3-031-05933-9_2',
     },
