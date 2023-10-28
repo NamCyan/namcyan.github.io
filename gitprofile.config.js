@@ -81,11 +81,18 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: '1st place at Vietnamese Machine Reading Comprehension in VLSP 2021 competion',
+      title: '1st place at Vietnamese Machine Reading Comprehension in VLSP 2021 competition',
       description:
         'nlp | mrc | vlsp-2021',
       imageUrl: '',
-      link: 'https://jcsce.vnu.edu.vn/index.php/jcsce/article/view/346',
+      link: 'https://github.com/NamCyan/mrc-vlsp2021',
+    },
+    {
+      title: '3rd place at Quy Nhon AI Hackathon 2022',
+      description:
+        'hackathon-2022 | nlp | scheduler',
+      imageUrl: '',
+      link: 'https://github.com/NamCyan/hackathon-quynhonai-2022',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
