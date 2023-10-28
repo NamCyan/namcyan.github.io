@@ -23,7 +23,7 @@ const Publication = ({ loading, publications, googleAnalytics }) => {
 
   useEffect(() => {
     if (displaySection(publications)) {
-      setArticles(publications)
+      setArticles(publications);
     }
   }, []);
 

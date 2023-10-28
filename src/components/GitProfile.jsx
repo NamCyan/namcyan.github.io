@@ -286,7 +286,7 @@ GitProfile.propTypes = {
         link: PropTypes.string.isRequired,
         imageUrl: PropTypes.string,
         year: PropTypes.number,
-        keywords: PropTypes.arrayOf(PropTypes.string)
+        keywords: PropTypes.arrayOf(PropTypes.string),
       })
     ),
     experiences: PropTypes.arrayOf(

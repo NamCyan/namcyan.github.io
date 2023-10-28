@@ -187,7 +187,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Hi, I'm Hai Nam ❤️`,
+  footer: `Hi, I'm Hai Nam 🤗`,
 };
 
 export default config;

@@ -302,7 +302,7 @@ export interface Config {
   /**
    * Publications
    */
-  publications?: Array<Publications>;
+  publications?: Array<Publication>;
 
   /**
    * Certifications list
