@@ -37,7 +37,6 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
   //     }
   //   }
   // }, []);
-  console.log(publications)
   const renderSkeleton = () => {
     let array = [];
     for (let index = 0; index < publications.length; index++) {
@@ -195,9 +194,7 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
                   </div>
                   <div className="col-span-2">
                     <div className="grid grid-cols-1 gap-6">
-                      {loading
-                        ? renderSkeleton()
-                        : renderPublications()}
+                      {renderPublications()}
                     </div>
                   </div>
                 </div>
