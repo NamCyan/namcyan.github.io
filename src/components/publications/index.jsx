@@ -20,23 +20,8 @@ const displaySection = (publications) => {
 const Publications = ({ publications, loading, googleAnalytics }) => {
   // const [articles, setArticles] = useState(null);
 
-  // useEffect(() => {
-  //   if (displaySection(publications)) {
-  //     if (blog.source === 'medium') {
-  //       getMediumPost({
-  //         user: blog.username,
-  //       }).then((res) => {
-  //         setArticles(res);
-  //       });
-  //     } else if (blog.source === 'dev') {
-  //       getDevPost({
-  //         user: blog.username,
-  //       }).then((res) => {
-  //         setArticles(res);
-  //       });
-  //     }
-  //   }
-  // }, []);
+  useEffect(() => {
+  }, []);
   const renderSkeleton = () => {
     let array = [];
     for (let index = 0; index < publications.length; index++) {
