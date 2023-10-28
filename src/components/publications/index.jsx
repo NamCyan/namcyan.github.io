@@ -177,7 +177,7 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
             <div className="col-span-2">
               <div
                 className={`card compact bg-base-100 ${
-                  loading || (publications && publications.length)
+                  loading || publications.length
                     ? 'shadow bg-opacity-40'
                     : 'shadow-lg'
                 }`}
@@ -213,8 +213,8 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
 
 Publications.propTypes = {
   loading: PropTypes.bool.isRequired,
-  publications: PropTypes.object.isRequired,
-  googleAnalytics: PropTypes.object.isRequired,
+  publications: PropTypes.array,
+  googleAnalytics: PropTypes.object,
 };
 
 export default Publications;
