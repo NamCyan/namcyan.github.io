@@ -11,6 +11,7 @@ import Certification from './certification';
 import Education from './education';
 import Project from './project';
 import Blog from './blog';
+import Publications from './publications';
 import Footer from './footer';
 import {
   genericError,
@@ -208,11 +209,16 @@ const GitProfile = ({ config }) => {
                         externalProjects={sanitizedConfig.externalProjects}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
-                      <Blog
+                      <Publications
+                        loading={loading}
+                        publications={sanitizedConfig.publications}
+                        googleAnalytics={sanitizedConfig.googleAnalytics}
+                      />
+                      {/* <Blog
                         loading={loading}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                         blog={sanitizedConfig.blog}
-                      />
+                      /> */}
                     </div>
                   </div>
                 </div>

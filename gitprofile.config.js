@@ -101,6 +101,17 @@ const config = {
     // username: 'arifszn', // to hide blog section, keep it empty
     // limit: 2, // How many posts to display. Max is 10.
   },
+  publications: [
+    {
+      title: '[PAKDD-2022] Auxiliary Local Variables for Improving Regularization/Prior Approach in Continual Learning',
+      year: 2023,
+      description:
+        'continual-learning | dropout | auxiliary-variables',
+      keywords: ["continual-learning", "dropout", "auxiliary-variables"],
+      imageUrl: '',
+      link: 'https://link.springer.com/chapter/10.1007/978-3-031-05933-9_2',
+    },
+  ],
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
