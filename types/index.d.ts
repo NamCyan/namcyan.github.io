@@ -253,7 +253,7 @@ export interface Publications {
   description: string;
   imageUrl?: string;
   link: string;
-  year?: string;
+  year?: number;
   keywords?: Array<string>;
 }
 
@@ -298,7 +298,6 @@ export interface Config {
    * External Projects
    */
   externalProjects?: Array<ExternalProjects>;
-
 
   /**
    * Publications

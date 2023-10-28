@@ -279,6 +279,16 @@ GitProfile.propTypes = {
         imageUrl: PropTypes.string,
       })
     ),
+    publications: PropTypes.arrayOf(
+      PropTypes.shape({
+        title: PropTypes.string.isRequired,
+        description: PropTypes.string.isRequired,
+        link: PropTypes.string.isRequired,
+        imageUrl: PropTypes.string,
+        year: PropTypes.number,
+        keywords: PropTypes.arrayOf(PropTypes.string)
+      })
+    ),
     experiences: PropTypes.arrayOf(
       PropTypes.shape({
         company: PropTypes.string,
