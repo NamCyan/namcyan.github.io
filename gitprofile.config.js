@@ -59,7 +59,7 @@ const config = {
     {
       name: 'TOEIC',
       body: 'Score: 865',
-      year: 'October 2023',
+      year: 'Oct 2023',
       link: ''
     },
   ],
@@ -126,6 +126,15 @@ const config = {
       keywords: ["continual-learning", "dropout", "auxiliary-variables"],
       imageUrl: '',
       link: 'https://link.springer.com/chapter/10.1007/978-3-031-05933-9_2',
+    },
+    {
+      title: 'ViMRC - VLSP 2021: Improving Retrospective Reader for Vietnamese Machine Reading Comprehension',
+      year: 2021,
+      conference: "JCSCE",
+      description: 'continual-learning | dropout | auxiliary-variables',
+      keywords: ['vlsp-2021', 'machine-reading-comprehension' | 'vietnamese' | 'retrospective-reader'],
+      imageUrl: 'https://github.com/NamCyan/namcyan.github.io/blob/main/public/thevault.jpg',
+      link: 'https://jcsce.vnu.edu.vn/index.php/jcsce/article/view/346',
     },
   ],
   googleAnalytics: {
