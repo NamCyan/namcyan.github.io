@@ -77,7 +77,7 @@ const config = {
       title: '[EMNLP-2023] The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation',
       description:
         'ai4code | ai4se | dataset | code-generation',
-      imageUrl: 'https://github.com/NamCyan/namcyan.github.io/blob/main/asset/thevault.png',
+      imageUrl: 'https://www.themoviedb.org/t/p/original/eMXA8Mbl9P9kNVGhMKqwr5Xni8C.jpg',
       link: 'https://arxiv.org/abs/2305.06156',
     },
     {
