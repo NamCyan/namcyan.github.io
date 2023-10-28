@@ -2,8 +2,8 @@ import { Fragment, useEffect, useState } from 'react';
 import { ga, skeleton } from '../../helpers/utils';
 import LazyImage from '../lazy-image';
 import PropTypes from 'prop-types';
-import { AiOutlineContainer } from 'react-icons/ai';
-import { getDevPost, getMediumPost } from '@arifszn/blog-js';
+// import { AiOutlineContainer } from 'react-icons/ai';
+// import { getDevPost, getMediumPost } from '@arifszn/blog-js';
 import { formatDistance } from 'date-fns';
 
 const displaySection = (publications) => {
@@ -97,8 +97,7 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
   };
 
   const renderPublications = () => {
-    return publications && publications.length ? (
-      publications.slice(0, publications.length).map((publication, index) => (
+    return publications.map((publication, index) => (
         <a
           className="card shadow-lg compact bg-base-100 cursor-pointer"
           key={index}
@@ -167,16 +166,8 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
             </div>
           </div>
         </a>
-      ))
-    ) : (
-      <div className="text-center mb-6">
-        <AiOutlineContainer className="mx-auto h-12 w-12 opacity-30" />
-        <p className="mt-1 text-sm opacity-50 text-base-content">
-          No recent post
-        </p>
-      </div>
-    );
-  };
+      ));
+    };
 
   return (
     <Fragment>
