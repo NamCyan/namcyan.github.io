@@ -34,7 +34,10 @@ const config = {
   },
   skills: [
     'Python',
+    'PyTorch',
+    'Huggingface transformers',
     'SQL',
+    'Docker'
   ],
   experiences: [
     {
@@ -48,7 +51,7 @@ const config = {
   certifications: [
     {
       name: 'TOEIC',
-      body: 'score: 865',
+      body: 'Score: 865',
       year: 'October 2023',
       link: ''
     },
@@ -70,20 +73,20 @@ const config = {
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
-    // {
-    //   title: 'Project Name',
-    //   description:
-    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-    //   imageUrl: 'https://via.placeholder.com/250x250',
-    //   link: 'https://example.com',
-    // },
-    // {
-    //   title: 'Project Name',
-    //   description:
-    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-    //   imageUrl: 'https://via.placeholder.com/250x250',
-    //   link: 'https://example.com',
-    // },
+    {
+      title: '[EMNLP-2023] The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation',
+      description:
+        'AI4Code, AI4SE, Dataset, Code generation',
+      imageUrl: 'https://github.com/FSoft-AI4Code/TheVault/blob/main/assets/the-vault-4-logo-png.png',
+      link: 'https://arxiv.org/abs/2305.06156',
+    },
+    {
+      title: '[PAKDD-2022] Auxiliary Local Variables for Improving Regularization/Prior Approach in Continual Learning',
+      description:
+        'Continual learning, Dropout, Local variables',
+      imageUrl: '',
+      link: 'https://link.springer.com/chapter/10.1007/978-3-031-05933-9_2',
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
