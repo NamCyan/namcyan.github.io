@@ -160,7 +160,7 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
             <div className="col-span-2">
               <div
                 className={`card compact bg-base-100 ${
-                  loading || publications.length
+                  loading
                     ? 'shadow bg-opacity-40'
                     : 'shadow-lg'
                 }`}
