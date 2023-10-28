@@ -2,8 +2,8 @@ import { Fragment, useEffect, useState } from 'react';
 import { ga, skeleton } from '../../helpers/utils';
 import LazyImage from '../lazy-image';
 import PropTypes from 'prop-types';
-// import { AiOutlineContainer } from 'react-icons/ai';
-// import { getDevPost, getMediumPost } from '@arifszn/blog-js';
+import { AiOutlineContainer } from 'react-icons/ai';
+import { getDevPost, getMediumPost } from '@arifszn/blog-js';
 import { formatDistance } from 'date-fns';
 
 const displaySection = (publications) => {
@@ -17,14 +17,19 @@ const displaySection = (publications) => {
     return false;
   }
 };
-const Publications = ({ publications, loading, googleAnalytics }) => {
-  // const [articles, setArticles] = useState(null);
+
+const Publications = ({ loading, publications, googleAnalytics }) => {
+  const [articles, setArticles] = useState(null);
 
   useEffect(() => {
+    if (displaySection(publications)) {
+      setArticles(publications)
+    }
   }, []);
+
   const renderSkeleton = () => {
     let array = [];
-    for (let index = 0; index < publications.length; index++) {
+    for (let index = 0; index < publications.limit; index++) {
       array.push(
         <div className="card shadow-lg compact bg-base-100" key={index}>
           <div className="p-8 h-full w-full">
@@ -79,21 +84,22 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
     return array;
   };
 
-  const renderPublications = () => {
-    return publications.map((publication, index) => (
+  const renderArticles = () => {
+    return articles && articles.length ? (
+      articles.slice(0, publications.limit).map((article, index) => (
         <a
           className="card shadow-lg compact bg-base-100 cursor-pointer"
           key={index}
-          href={publication.link}
+          href={article.link}
           onClick={(e) => {
             e.preventDefault();
 
             try {
               if (googleAnalytics?.id) {
                 ga.event({
-                  action: 'Click Blog Post',
+                  action: 'Click Publications Post',
                   params: {
-                    post: publication.title,
+                    post: article.title,
                   },
                 });
               }
@@ -101,7 +107,7 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
               console.error(error);
             }
 
-            window?.open(publication.link, '_blank');
+            window?.open(article.link, '_blank');
           }}
         >
           <div className="p-8 h-full w-full">
@@ -109,7 +115,7 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
               <div className="avatar mb-5 md:mb-0 opacity-90">
                 <div className="w-24 h-24 mask mask-squircle">
                   <LazyImage
-                    src={publication.imageUrl}
+                    src={article.imageUrl}
                     alt={'thumbnail'}
                     placeholder={skeleton({
                       width: 'w-full',
@@ -123,23 +129,23 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
                 <div className="flex items-start px-4">
                   <div className="text-center md:text-left w-full">
                     <h2 className="font-semibold text-base-content opacity-60">
-                      {publication.title}
+                      {article.title}
                     </h2>
                     <p className="text-base-content opacity-50 text-xs">
-                      {formatDistance(publication.year, new Date(), {
+                      {formatDistance(article.year, new Date(), {
                         addSuffix: true,
                       })}
                     </p>
                     <p className="mt-3 text-base-content text-opacity-60 text-sm">
-                      {publication.description}
+                      {article.description}
                     </p>
                     <div className="mt-4 flex items-center flex-wrap justify-center md:justify-start">
-                      {publication.keywords.map((keyword, index2) => (
+                      {article.keywords.map((category, index2) => (
                         <div
                           className="py-2 px-4 text-xs leading-3 rounded-full bg-base-300 mr-1 mb-1 opacity-50 text-base-content"
                           key={index2}
                         >
-                          #{keyword}
+                          #{category}
                         </div>
                       ))}
                     </div>
@@ -149,8 +155,16 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
             </div>
           </div>
         </a>
-      ));
-    };
+      ))
+    ) : (
+      <div className="text-center mb-6">
+        <AiOutlineContainer className="mx-auto h-12 w-12 opacity-30" />
+        <p className="mt-1 text-sm opacity-50 text-base-content">
+          No recent post
+        </p>
+      </div>
+    );
+  };
 
   return (
     <Fragment>
@@ -160,7 +174,7 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
             <div className="col-span-2">
               <div
                 className={`card compact bg-base-100 ${
-                  loading
+                  loading || (articles && articles.length)
                     ? 'shadow bg-opacity-40'
                     : 'shadow-lg'
                 }`}
@@ -179,9 +193,9 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
                   </div>
                   <div className="col-span-2">
                     <div className="grid grid-cols-1 gap-6">
-                      {loading
+                      {loading || !articles
                         ? renderSkeleton()
-                        : renderPublications()}
+                        : renderArticles()}
                     </div>
                   </div>
                 </div>
