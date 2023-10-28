@@ -77,7 +77,7 @@ const config = {
       title: '[EMNLP-2023] The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation',
       description:
         'ai4code | ai4se | dataset | code-generation',
-      imageUrl: 'https://github.com/FSoft-AI4Code/TheVault/blob/main/assets/the-vault-4-logo-png.png',
+      imageUrl: 'https://github.com/NamCyan/namcyan.github.io/blob/main/asset/thevault.png',
       link: 'https://arxiv.org/abs/2305.06156',
     },
     {
@@ -170,7 +170,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Hi I'm Hai Nam ❤️`,
+  footer: `Hi, I'm Hai Nam ❤️`,
 };
 
 export default config;
