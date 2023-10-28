@@ -41,6 +41,13 @@ const config = {
   ],
   experiences: [
     {
+      company: 'Mobifone IT Center',
+      position: 'AI Engineer',
+      from: 'Jan 2021',
+      to: 'June 2021',
+      companyLink: '',
+    },
+    {
       company: 'FPT Software AI Center',
       position: 'AI Resident',
       from: 'July 2022',
