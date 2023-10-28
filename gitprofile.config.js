@@ -76,16 +76,23 @@ const config = {
     {
       title: '[EMNLP-2023] The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation',
       description:
-        'ai4code || ai4se || dataset || code-generation',
+        'ai4code | ai4se | dataset | code-generation',
       imageUrl: 'https://github.com/FSoft-AI4Code/TheVault/blob/main/assets/the-vault-4-logo-png.png',
       link: 'https://arxiv.org/abs/2305.06156',
     },
     {
       title: '[PAKDD-2022] Auxiliary Local Variables for Improving Regularization/Prior Approach in Continual Learning',
       description:
-        'continual-learning || dropout || auxiliary-variables',
+        'continual-learning | dropout | auxiliary-variables',
       imageUrl: '',
       link: 'https://link.springer.com/chapter/10.1007/978-3-031-05933-9_2',
+    },
+    {
+      title: '[JCSCE-2021] ViMRC - VLSP 2021: Improving Retrospective Reader for Vietnamese Machine Reading Comprehension',
+      description:
+        'vlsp-2021 | machine-reading-comprehension | vietnamese | retrospective-reader',
+      imageUrl: '',
+      link: 'https://jcsce.vnu.edu.vn/index.php/jcsce/article/view/346',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
