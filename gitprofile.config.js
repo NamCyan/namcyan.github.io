@@ -60,14 +60,14 @@ const config = {
     {
       institution: 'Hanoi University of Science and Technology',
       degree: 'Bachelor',
-      from: '7/2017',
-      to: '7/2021',
+      from: '2017',
+      to: '2021',
     },
     {
       institution: 'Hanoi University of Science and Technology',
       degree: 'Master',
-      from: '10/2021',
-      to: '10/2023',
+      from: '2021',
+      to: '2023',
     },
   ],
 

@@ -96,7 +96,7 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
     return array;
   };
 
-  const renderArticles = () => {
+  const renderPublications = () => {
     return publications && publications.length ? (
       publications.slice(0, publications.length).map((publication, index) => (
         <a
@@ -205,9 +205,9 @@ const Publications = ({ publications, loading, googleAnalytics }) => {
                   </div>
                   <div className="col-span-2">
                     <div className="grid grid-cols-1 gap-6">
-                      {loading || !publications
+                      {loading
                         ? renderSkeleton()
-                        : renderArticles()}
+                        : renderPublications()}
                     </div>
                   </div>
                 </div>
