@@ -15,7 +15,7 @@ const LazyImage = ({ placeholder, src, alt, ...rest }) => {
 
   return (
     <Fragment>
-      {loading ? placeholder : <img src={src} alt={alt} {...rest} />}
+      {loading ? placeholder : <img src={{src}.default} alt={alt} {...rest} />}
     </Fragment>
   );
 };
