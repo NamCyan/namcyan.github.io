@@ -105,16 +105,16 @@ const config = {
     {
       title: 'The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation',
       year: 2023,
-      conference: "Pacific-Asia Conference on Knowledge Discovery and Data Mining (EMNLP)",
+      conference: "[EMNLP] Empirical Methods in Natural Language Processing",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ['ai4code', 'ai4se', 'dataset', 'code-understanding', 'code-generation'],
-      imageUrl: 'https://github.com/NamCyan/namcyan.github.io/blob/main/public/sad_robot.jpg',
+      imageUrl: 'https://github.com/FSoft-AI4Code/TheVault/blob/main/assets/poster.jpg',
       link: 'https://arxiv.org/abs/2305.06156',
     },
     {
       title: 'Auxiliary Local Variables for Improving Regularization/Prior Approach in Continual Learning',
       year: 2022,
-      conference: "Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)",
+      conference: "[PAKDD] Pacific-Asia Conference on Knowledge Discovery and Data Mining",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ["continual-learning", "dropout", "auxiliary-variables"],
       imageUrl: 'https://lazyprogrammer.me/wp-content/uploads/2016/04/the_neural_network2_by_rajasegar-d2xx41q.jpg',
@@ -123,7 +123,7 @@ const config = {
     {
       title: 'ViMRC - VLSP 2021: Improving Retrospective Reader for Vietnamese Machine Reading Comprehension',
       year: 2021,
-      conference: "VNU Journal of Science: Computer Science and Communication Engineering (JCSCE)",
+      conference: "[JCSCE] VNU Journal of Science: Computer Science and Communication Engineering",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ['vlsp-2021', 'machine-reading-comprehension', 'vietnamese', 'retrospective-reader'],
       imageUrl: 'https://github.com/NamCyan/namcyan.github.io/blob/main/public/thevault.jpg',
