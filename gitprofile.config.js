@@ -108,7 +108,7 @@ const config = {
       conference: "EMNLP",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ['ai4code', 'ai4se', 'dataset', 'code-understanding', 'code-generation'],
-      imageUrl: 'https://github.com/NamCyan/namcyan.github.io/blob/main/public/thevault.jpg',
+      imageUrl: 'https://drive.google.com/file/d/1ILXRejGIuDKnhBZBkq-4UL0KcwBmcRBp/view?usp=drive_link',
       link: 'https://arxiv.org/abs/2305.06156',
     },
     {
