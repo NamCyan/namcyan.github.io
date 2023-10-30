@@ -48,11 +48,18 @@ const config = {
       companyLink: '',
     },
     {
+      company: 'VietAI',
+      position: 'Teaching assistant',
+      from: 'Jan 2021',
+      to: 'Present',
+      companyLink: 'https://vietai.org/',
+    },
+    {
       company: 'FPT Software AI Center',
       position: 'AI Resident',
       from: 'July 2022',
       to: 'Present',
-      companyLink: 'https://example.comhttps://www.facebook.com/aic.fsoft',
+      companyLink: 'https://www.fpt-aicenter.com/ai-residency/',
     },
   ],
   certifications: [
