@@ -91,14 +91,14 @@ const config = {
       title: '1st place at Vietnamese Machine Reading Comprehension in VLSP 2021 competition',
       description:
         'nlp | mrc | vlsp-2021',
-      imageUrl: '',
+      imageUrl: 'https://i.pinimg.com/564x/0b/20/45/0b2045b4d29a09710e769342fee55685.jpg',
       link: 'https://github.com/NamCyan/mrc-vlsp2021',
     },
     {
       title: '3rd place at Quy Nhon AI Hackathon 2022',
       description:
         'hackathon-2022 | nlp | scheduler',
-      imageUrl: '',
+      imageUrl: 'https://i.pinimg.com/564x/c9/ca/2a/c9ca2a4c0f585ef61671e263a0d55411.jpg',
       link: 'https://github.com/NamCyan/hackathon-quynhonai-2022',
     },
   ],
