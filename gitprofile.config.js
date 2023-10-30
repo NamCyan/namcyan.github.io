@@ -88,7 +88,7 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: '1st place at Vietnamese Machine Reading Comprehension in VLSP 2021 competition',
+      title: '1st place at Vietnamese Machine Reading Comprehension shared task in VLSP 2021 competition',
       description:
         'nlp | mrc | vlsp-2021',
       imageUrl: 'https://i.pinimg.com/564x/0b/20/45/0b2045b4d29a09710e769342fee55685.jpg',
@@ -115,7 +115,7 @@ const config = {
       conference: "[EMNLP] Findings of Empirical Methods in Natural Language Processing",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ['ai4code', 'ai4se', 'dataset', 'code-understanding', 'code-generation'],
-      imageUrl: 'https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/ee121264954491.5ae32fd33eef9.png',
+      imageUrl: 'https://i.pinimg.com/originals/f6/47/b7/f647b70fbafd6d7e4d6dd801e71ed195.jpg',
       link: 'https://arxiv.org/abs/2305.06156',
     },
     {
