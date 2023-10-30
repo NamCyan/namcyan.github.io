@@ -126,7 +126,7 @@ const config = {
       conference: "[JCSCE] VNU Journal of Science: Computer Science and Communication Engineering",
       description:'vlsp-2021 | machine-reading-comprehension | vietnamese | retrospective-reader',
       keywords: ['vlsp-2021', 'machine-reading-comprehension', 'vietnamese', 'retrospective-reader'],
-      imageUrl: 'public/thevault.png',
+      imageUrl: 'https://i.pinimg.com/originals/10/26/58/102658004e2ed30dcd9ca8e45600abe6.jpg',
       link: 'https://jcsce.vnu.edu.vn/index.php/jcsce/article/view/346',
     },
   ],
