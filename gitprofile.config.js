@@ -108,7 +108,7 @@ const config = {
       conference: "[EMNLP] Findings of Empirical Methods in Natural Language Processing",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ['ai4code', 'ai4se', 'dataset', 'code-understanding', 'code-generation'],
-      imageUrl: 'https://github.com/FSoft-AI4Code/TheVault/blob/main/assets/poster.jpg',
+      imageUrl: 'https://i.pinimg.com/originals/63/50/e0/6350e038db2f8d28dbe1c8ea64693f04.png',
       link: 'https://arxiv.org/abs/2305.06156',
     },
     {
@@ -117,7 +117,7 @@ const config = {
       conference: "[PAKDD] Pacific-Asia Conference on Knowledge Discovery and Data Mining",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ["continual-learning", "variational-dropout", "auxiliary-variables"],
-      imageUrl: 'https://lazyprogrammer.me/wp-content/uploads/2016/04/the_neural_network2_by_rajasegar-d2xx41q.jpg',
+      imageUrl: 'https://cdn-az.allevents.in/events1/banners/b8d505120e9a2a139f7c89134213a07ce570f09ab54c51c53e2ed40a79de9d88-rimg-w892-h446-gmir.jpg',
       link: 'https://link.springer.com/chapter/10.1007/978-3-031-05933-9_2',
     },
     {
