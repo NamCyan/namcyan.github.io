@@ -108,7 +108,7 @@ const config = {
       conference: "[EMNLP] Findings of Empirical Methods in Natural Language Processing",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ['ai4code', 'ai4se', 'dataset', 'code-understanding', 'code-generation'],
-      imageUrl: 'https://i.pinimg.com/originals/b2/df/88/b2df88d49add10274010b248987d14a2.jpg',
+      imageUrl: 'https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/ee121264954491.5ae32fd33eef9.png',
       link: 'https://arxiv.org/abs/2305.06156',
     },
     {
@@ -117,7 +117,7 @@ const config = {
       conference: "[PAKDD] Pacific-Asia Conference on Knowledge Discovery and Data Mining",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ["continual-learning", "variational-dropout", "auxiliary-variables"],
-      imageUrl: 'https://i.pinimg.com/originals/a6/70/c7/a670c7efa965ceb349b32050ab71b952.png',
+      imageUrl: 'https://i.pinimg.com/originals/54/4e/a9/544ea9d557e7d4c465eb72645526ea94.jpg',
       link: 'https://link.springer.com/chapter/10.1007/978-3-031-05933-9_2',
     },
     {
@@ -126,7 +126,7 @@ const config = {
       conference: "[JCSCE] VNU Journal of Science: Computer Science and Communication Engineering",
       description:'vlsp-2021 | machine-reading-comprehension | vietnamese | retrospective-reader',
       keywords: ['vlsp-2021', 'machine-reading-comprehension', 'vietnamese', 'retrospective-reader'],
-      imageUrl: 'https://i.pinimg.com/originals/94/05/2d/94052d5b41c97e8468b98a8efbb800ba.png',
+      imageUrl: 'https://i.pinimg.com/originals/cd/8e/27/cd8e27335b8af2f7c4828a4566b8bd6c.jpg',
       link: 'https://jcsce.vnu.edu.vn/index.php/jcsce/article/view/346',
     },
   ],
