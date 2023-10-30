@@ -35,7 +35,7 @@ const config = {
   skills: [
     'Python',
     'PyTorch',
-    'Huggingface transformers',
+    'Huggingface 🤗',
     'SQL',
     'Docker'
   ],
