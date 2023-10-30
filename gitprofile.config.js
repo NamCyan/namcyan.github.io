@@ -108,7 +108,7 @@ const config = {
       conference: "[EMNLP] Findings of Empirical Methods in Natural Language Processing",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ['ai4code', 'ai4se', 'dataset', 'code-understanding', 'code-generation'],
-      imageUrl: 'https://i.pinimg.com/originals/12/35/b6/1235b60863cc5701ad81396072705eca.jpg',
+      imageUrl: 'https://i.pinimg.com/originals/b2/df/88/b2df88d49add10274010b248987d14a2.jpg',
       link: 'https://arxiv.org/abs/2305.06156',
     },
     {
