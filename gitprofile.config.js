@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'NamCyan', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 6, // How many projects to display.
+    limit: 3, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -88,14 +88,14 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: '1st place\nat VLSP 2021 competition',
+      title: '1st place at Vietnamese Language and Speech Processing 2021',
       description:
         'vlsp-2021 | nlp | machine-reading-comprehension',
       imageUrl: 'https://i.pinimg.com/564x/0b/20/45/0b2045b4d29a09710e769342fee55685.jpg',
       link: 'https://github.com/NamCyan/mrc-vlsp2021',
     },
     {
-      title: '3rd place at\nQuy Nhon AI Hackathon 2022',
+      title: '3rd place at Quy Nhon AI Hackathon 2022',
       description:
         'hackathon-2022 | nlp | scheduler',
       imageUrl: 'https://i.pinimg.com/564x/c9/ca/2a/c9ca2a4c0f585ef61671e263a0d55411.jpg',
@@ -115,7 +115,7 @@ const config = {
       conference: "[EMNLP] Findings of Empirical Methods in Natural Language Processing",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ['ai4code', 'ai4se', 'dataset', 'code-understanding', 'code-generation'],
-      imageUrl: 'https://www.arg.tech/wp-content/uploads/2023/10/emnlplogosquare-2-280x230.png',
+      imageUrl: 'https://www.am.ai/static/553caff9083f9234c51c1732a6bcf827/8c557/logo_emnlp.png',
       link: 'https://arxiv.org/abs/2305.06156',
     },
     {
@@ -124,7 +124,7 @@ const config = {
       conference: "[PAKDD] Pacific-Asia Conference on Knowledge Discovery and Data Mining",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ["continual-learning", "variational-dropout", "auxiliary-variables"],
-      imageUrl: 'https://i.pinimg.com/564x/5f/60/0a/5f600a2ccd3d972092a7282ba85e88de.jpg',
+      imageUrl: '',
       link: 'https://link.springer.com/chapter/10.1007/978-3-031-05933-9_2',
     },
     {
