@@ -115,7 +115,7 @@ const config = {
       conference: "[EMNLP] Findings of Empirical Methods in Natural Language Processing",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ['ai4code', 'ai4se', 'dataset', 'code-understanding', 'code-generation'],
-      imageUrl: 'https://i.pinimg.com/564x/d8/30/97/d83097401c6f6a6e7dfb6a62a9aae30b.jpg',
+      imageUrl: 'https://www.arg.tech/wp-content/uploads/2023/10/emnlplogosquare-2-280x230.png',
       link: 'https://arxiv.org/abs/2305.06156',
     },
     {
@@ -133,7 +133,7 @@ const config = {
       conference: "[JCSCE] VNU Journal of Science: Computer Science and Communication Engineering",
       description:'vlsp-2021 | machine-reading-comprehension | vietnamese | retrospective-reader',
       keywords: ['vlsp-2021', 'machine-reading-comprehension', 'vietnamese', 'retrospective-reader'],
-      imageUrl: 'https://i.pinimg.com/564x/e7/c2/ca/e7c2cac2a84c12b0df4da7822b8da4aa.jpg',
+      imageUrl: 'https://congnghevadoisong.vn/thumb_x303x180/upload/2020/12/14/vlsppng?1607944600',
       link: 'https://jcsce.vnu.edu.vn/index.php/jcsce/article/view/346',
     },
   ],
