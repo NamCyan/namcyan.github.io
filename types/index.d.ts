@@ -259,6 +259,14 @@ export interface Publication {
   keywords?: Array<string>;
 }
 
+export interface New {
+  items?: Array<{
+    date: string;
+    content: string;
+  }>;
+  limit?: number;
+}
+
 export interface Education {
   institution?: string;
   degree?: string;
@@ -300,6 +308,11 @@ export interface Config {
    * External Projects
    */
   externalProjects?: Array<ExternalProjects>;
+
+  /**
+   * News
+   */
+  news?: New;
 
   /**
    * Publications

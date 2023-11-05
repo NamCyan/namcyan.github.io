@@ -10,6 +10,7 @@ import Experience from './experience';
 import Certification from './certification';
 import Education from './education';
 import Project from './project';
+import New from './news';
 // import Blog from './blog';
 import Footer from './footer';
 import {
@@ -198,10 +199,15 @@ const GitProfile = ({ config }) => {
                   </div>
                   <div className="lg:col-span-2 col-span-1">
                     <div className="grid grid-cols-1 gap-6">
-                      <Project
+                      {/* <Project
                         repo={repo}
                         loading={loading}
                         github={sanitizedConfig.github}
+                        googleAnalytics={sanitizedConfig.googleAnalytics}
+                      /> */}
+                      <New
+                        loading={loading}
+                        news={sanitizedConfig.news}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
                       <ExternalProject
@@ -279,6 +285,16 @@ GitProfile.propTypes = {
         imageUrl: PropTypes.string,
       })
     ),
+    news: PropTypes.shape({
+      items: PropTypes.arrayOf(PropTypes.shape({
+        date: PropTypes.string.isRequired,
+        content: PropTypes.string.isRequired,
+        })
+      ),
+      limit: PropTypes.number.isRequired,
+    }),
+      
+
     publications: PropTypes.arrayOf(
       PropTypes.shape({
         title: PropTypes.string.isRequired,

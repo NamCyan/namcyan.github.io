@@ -107,6 +107,15 @@ const config = {
     // username: 'arifszn', // to hide blog section, keep it empty
     // limit: 2, // How many posts to display. Max is 10.
   },
+  news: {
+    items: [
+      {
+        data: "Nov 5, 2023", 
+        content: "Haha"
+      },
+    ],
+    limit: 3
+  },
   publications: [
     {
       title: 'The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation',

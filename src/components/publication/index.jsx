@@ -7,9 +7,6 @@ import { getDevPost, getMediumPost } from '@arifszn/blog-js';
 import { formatDistance } from 'date-fns';
 
 const displaySection = (publications) => {
-  <script>
-  console.log(publications);
-  </script>
   if (
     publications &&
     Array.isArray(publications) &&
