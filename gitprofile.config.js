@@ -110,7 +110,7 @@ const config = {
     {
       title: 'The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation',
       year: 2023,
-      conference: "[EMNLP] Findings of Empirical Methods in Natural Language Processing",
+      conference: "[EMNLP'23] Findings of Empirical Methods in Natural Language Processing",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ['ai4code', 'ai4se', 'dataset', 'code-understanding', 'code-generation'],
       imageUrl: 'https://www.am.ai/static/553caff9083f9234c51c1732a6bcf827/8c557/logo_emnlp.png',
@@ -119,7 +119,7 @@ const config = {
     {
       title: 'Continual Variational Dropout: A View of Auxiliary Local Variables in Continual Learning',
       year: 2023,
-      conference: "[Mach. Learn.] Machine Learning journal",
+      conference: "[Mach. Learn.'23] Machine Learning journal",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ["continual-learning", "variational-dropout", "auxiliary-variables"],
       imageUrl: 'https://media.springernature.com/w138/springer-static/cover/journal/10994/112/11.jpg',
@@ -128,7 +128,7 @@ const config = {
     {
       title: 'Auxiliary Local Variables for Improving Regularization/Prior Approach in Continual Learning',
       year: 2022,
-      conference: "[PAKDD] Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+      conference: "[PAKDD'22] Pacific-Asia Conference on Knowledge Discovery and Data Mining",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ["continual-learning", "variational-dropout", "auxiliary-variables"],
       imageUrl: 'https://i.pinimg.com/originals/57/20/8c/57208ceae53b08bccde452a465bbdfed.png',
@@ -137,7 +137,7 @@ const config = {
     {
       title: 'ViMRC - VLSP 2021: Improving Retrospective Reader for Vietnamese Machine Reading Comprehension',
       year: 2021,
-      conference: "[JCSCE] VNU Journal of Science: Computer Science and Communication Engineering",
+      conference: "[JCSCE'21] VNU Journal of Science: Computer Science and Communication Engineering",
       description:'vlsp-2021 | machine-reading-comprehension | vietnamese | retrospective-reader',
       keywords: ['vlsp-2021', 'machine-reading-comprehension', 'vietnamese', 'retrospective-reader'],
       imageUrl: 'https://i.pinimg.com/originals/53/92/b9/5392b938d681f7c6eb9dbad8ed00d90d.png',
