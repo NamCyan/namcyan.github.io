@@ -205,10 +205,9 @@ const GitProfile = ({ config }) => {
                         github={sanitizedConfig.github}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       /> */}
-                      <Publication
+                      <New
                         loading={loading}
-                        publications={sanitizedConfig.publications}
-                        googleAnalytics={sanitizedConfig.googleAnalytics}
+                        news={sanitizedConfig.news}
                       />
                       <ExternalProject
                         loading={loading}
