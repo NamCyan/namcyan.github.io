@@ -33,11 +33,9 @@ const config = {
       '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Python',
-    'PyTorch',
-    'Huggingface 🤗',
-    'SQL',
-    'Docker'
+    '🤖 AI4Code',
+    '🤗 NLP',
+    '🤯 Continual learning',
   ],
   experiences: [
     {
@@ -133,7 +131,7 @@ const config = {
       conference: "[PAKDD] Pacific-Asia Conference on Knowledge Discovery and Data Mining",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ["continual-learning", "variational-dropout", "auxiliary-variables"],
-      imageUrl: 'https://i.pinimg.com/originals/b9/50/93/b950931d83fba6f22b944da5bef76939.png',
+      imageUrl: 'https://i.pinimg.com/originals/4e/b3/6d/4eb36da58359aa84e87a5cdcf5d195a5.png',
       link: 'https://link.springer.com/chapter/10.1007/978-3-031-05933-9_2',
     },
     {
