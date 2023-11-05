@@ -55,7 +55,7 @@ const AvatarCard = ({ profile, loading, avatarRing, resume }) => {
             {/* {loading || !profile
               ? skeleton({ width: 'w-48', height: 'h-5' })
               : bio} */}
-              Greetings from Nam Le Hai! I completed the Master of Data Science at Hanoi University of Science and Technology. At present, I am engaged in research as an AI resident at FPT Software AIC Lab, working under the guidance of <a href="https://bdqnghi.github.io/"><p style="color:blue" >Dr. Nghi Bui</p></a>, and my primary focus is on AI4Code. Looking to the future, I am excited about the possibility of pursuing a Ph.D. in 2024, with a strong desire to delve further into research in the field of AI4Code or Natural Language Processing.
+              Greetings from Nam Le Hai! I completed the Master of Data Science at Hanoi University of Science and Technology. At present, I am engaged in research as an AI resident at FPT Software AIC Lab, working under the guidance of <a href="https://bdqnghi.github.io/">Dr. Nghi Bui</a>, and my primary focus is on AI4Code. Looking to the future, I am excited about the possibility of pursuing a Ph.D. in 2024, with a strong desire to delve further into research in the field of AI4Code or Natural Language Processing.
           </div>
         </div>
         {resume?.fileUrl &&
