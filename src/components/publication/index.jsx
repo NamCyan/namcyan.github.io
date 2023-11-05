@@ -137,7 +137,7 @@ const Publication = ({ loading, publications, googleAnalytics }) => {
                     <p className="text-base-content opacity-50 text-xs">
                       {article.conference} - {article.year}
                     </p>
-                    <p className="text-base-content opacity-50 text-xs">
+                    <p className="mt-3 text-base-content text-opacity-60 text-sm">
                       {article.authors}
                     </p>
                     {/* <p className="mt-3 text-base-content text-opacity-60 text-sm">
