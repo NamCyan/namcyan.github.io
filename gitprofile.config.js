@@ -128,7 +128,7 @@ const config = {
     {
       title: 'The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation',
       year: 2023,
-      authors: 'Dung Nguyen Manh*, <u>Nam Le Hai*</u>, Anh T. V. Dau, Anh Minh Nguyen, Khanh Nghiem, Jin Guo, and Nghi D. Q. Bui',
+      authors: 'Dung Nguyen Manh*, Nam Le Hai*, Anh T. V. Dau, Anh Minh Nguyen, Khanh Nghiem, Jin Guo, and Nghi D. Q. Bui',
       conference: "[EMNLP'23] Findings of Empirical Methods in Natural Language Processing",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ['ai4code', 'ai4se', 'dataset', 'code-understanding', 'code-generation'],
