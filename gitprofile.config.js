@@ -89,7 +89,7 @@ const config = {
       title: '1st place at Vietnamese Language and Speech Processing 2021',
       description:
         'vlsp-2021 | nlp | machine-reading-comprehension',
-      imageUrl: 'https://i.pinimg.com/564x/e5/3f/82/e53f82e9ed0f8406a5dd2d5851a23747.jpg',
+      imageUrl: 'https://i.pinimg.com/originals/53/92/b9/5392b938d681f7c6eb9dbad8ed00d90d.png',
       link: 'https://github.com/NamCyan/mrc-vlsp2021',
     },
     {
@@ -140,7 +140,7 @@ const config = {
       conference: "[JCSCE] VNU Journal of Science: Computer Science and Communication Engineering",
       description:'vlsp-2021 | machine-reading-comprehension | vietnamese | retrospective-reader',
       keywords: ['vlsp-2021', 'machine-reading-comprehension', 'vietnamese', 'retrospective-reader'],
-      imageUrl: 'https://i.pinimg.com/originals/c3/09/e7/c309e7befb1f1c76262dbc8dfc4a9bba.png',
+      imageUrl: 'https://i.pinimg.com/originals/53/92/b9/5392b938d681f7c6eb9dbad8ed00d90d.png',
       link: 'https://jcsce.vnu.edu.vn/index.php/jcsce/article/view/346',
     },
   ],
