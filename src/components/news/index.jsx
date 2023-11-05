@@ -19,10 +19,10 @@ const displaySection = (news) => {
 const New = ({ news, loading, googleAnalytics }) => {
 
   const renderSkeleton = () => {
-    let array = [];
-    for (let index = 0; index < news.limit; index++) {
-      array.push(
-        <div className="card shadow-lg compact bg-base-100" key={index}>
+    // let array = [];
+    // for (let index = 0; index < news.limit; index++) {
+    //   array.push(
+    return <div className="card shadow-lg compact bg-base-100" key={index}>
           <div className="flex justify-between flex-col p-8 h-full w-full">
             <div>
               <div className="flex items-center">
@@ -62,14 +62,14 @@ const New = ({ news, loading, googleAnalytics }) => {
             </div>
           </div>
         </div>
-      );
-    }
+  //     );
+  //   }
 
-    return array;
+  //   return array;
   };
 
   const renderNews = () => {
-    return news.items.map((item, index) => (
+    return news.items.slice(0, news.limit).map((item, index) => (
       // <a
       //   className="card shadow-lg compact bg-base-100 cursor-pointer"
       //   href={item.html_url}
