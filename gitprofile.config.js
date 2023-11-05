@@ -89,7 +89,7 @@ const config = {
       title: '1st place at Vietnamese Language and Speech Processing 2021',
       description:
         'vlsp-2021 | nlp | machine-reading-comprehension',
-      imageUrl: 'https://i.pinimg.com/564x/e5/3f/82/e53f82e9ed0f8406a5dd2d5851a23747.jpg',
+      imageUrl: 'https://i.pinimg.com/originals/c3/09/e7/c309e7befb1f1c76262dbc8dfc4a9bba.png',
       link: 'https://github.com/NamCyan/mrc-vlsp2021',
     },
     {
