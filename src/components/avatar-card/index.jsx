@@ -2,6 +2,8 @@ import PropTypes from 'prop-types';
 import { fallbackImage, skeleton } from '../../helpers/utils';
 import LazyImage from '../lazy-image';
 
+const bio = "Greetings from Nam Le Hai! I had achieved a Master's degree in Data Science at Hanoi University of Science and Technology. At present, I am engaged in research as an AI resident at FPT Software AIC Lab, working under the guidance of Dr. Nghi Bui, and my primary focus is on AI4Code. Looking to the future, I am excited about the possibility of pursuing a Ph.D. in 2024, with a strong desire to delve further into research in the field of AI4Code or Natural Language Processing."
+
 const AvatarCard = ({ profile, loading, avatarRing, resume }) => {
   return (
     <div className="card shadow-lg compact bg-base-100">
@@ -52,7 +54,7 @@ const AvatarCard = ({ profile, loading, avatarRing, resume }) => {
           <div className="mt-3 text-base-content text-opacity-60 font-mono">
             {loading || !profile
               ? skeleton({ width: 'w-48', height: 'h-5' })
-              : profile.bio}
+              : bio}
           </div>
         </div>
         {resume?.fileUrl &&
