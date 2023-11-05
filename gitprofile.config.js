@@ -89,7 +89,11 @@ const config = {
       title: '1st place at Vietnamese Language and Speech Processing 2021',
       description:
         'vlsp-2021 | nlp | machine-reading-comprehension',
+<<<<<<< HEAD
       imageUrl: 'https://i.pinimg.com/originals/53/92/b9/5392b938d681f7c6eb9dbad8ed00d90d.png',
+=======
+      imageUrl: 'https://i.pinimg.com/originals/c3/09/e7/c309e7befb1f1c76262dbc8dfc4a9bba.png',
+>>>>>>> 6380bb15df9f29cc9652bdb6adb458676a3bbc75
       link: 'https://github.com/NamCyan/mrc-vlsp2021',
     },
     {
@@ -157,7 +161,7 @@ const config = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
