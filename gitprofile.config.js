@@ -34,6 +34,7 @@ const config = {
   },
   skills: [
     'AI4Code',
+    'AI4SE',
     'NLP 🤗',
     'Continual learning',
   ],
@@ -110,6 +111,7 @@ const config = {
     {
       title: 'The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation',
       year: 2023,
+      authors: 'Dung Nguyen Manh*, Nam Le Hai*, Anh T. V. Dau, Anh Minh Nguyen, Khanh Nghiem, Jin Guo, and Nghi D. Q. Bui',
       conference: "[EMNLP'23] Findings of Empirical Methods in Natural Language Processing",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ['ai4code', 'ai4se', 'dataset', 'code-understanding', 'code-generation'],
@@ -119,6 +121,7 @@ const config = {
     {
       title: 'Continual Variational Dropout: A View of Auxiliary Local Variables in Continual Learning',
       year: 2023,
+      authors: 'Nam Le Hai*, Trang Nguyen*, Linh Ngo Van, Thien Huu Nguyen and Khoat Than',
       conference: "[Mach. Learn.'23] Machine Learning journal",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ["continual-learning", "variational-dropout", "auxiliary-variables"],
@@ -128,6 +131,7 @@ const config = {
     {
       title: 'Auxiliary Local Variables for Improving Regularization/Prior Approach in Continual Learning',
       year: 2022,
+      authors: 'Linh Ngo Van*, Nam Le Hai*, Hoang Pham and Khoat Than',
       conference: "[PAKDD'22] Pacific-Asia Conference on Knowledge Discovery and Data Mining",
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ["continual-learning", "variational-dropout", "auxiliary-variables"],
@@ -137,6 +141,7 @@ const config = {
     {
       title: 'ViMRC - VLSP 2021: Improving Retrospective Reader for Vietnamese Machine Reading Comprehension',
       year: 2021,
+      authors: 'Nam Le Hai, Nguyen Sy Duc, Chu Quoc Quan and Ngo Van Vi',
       conference: "[JCSCE'21] VNU Journal of Science: Computer Science and Communication Engineering",
       description:'vlsp-2021 | machine-reading-comprehension | vietnamese | retrospective-reader',
       keywords: ['vlsp-2021', 'machine-reading-comprehension', 'vietnamese', 'retrospective-reader'],

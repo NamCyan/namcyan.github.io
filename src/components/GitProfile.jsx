@@ -282,7 +282,8 @@ GitProfile.propTypes = {
     publications: PropTypes.arrayOf(
       PropTypes.shape({
         title: PropTypes.string.isRequired,
-        description: PropTypes.string.isRequired,
+        description: PropTypes.string,
+        authors: PropTypes.string.isRequired,
         link: PropTypes.string.isRequired,
         conference: PropTypes.string.isRequired,
         imageUrl: PropTypes.string,
