@@ -46,7 +46,7 @@ const New = ({ news, loading }) => {
                   skeleton({ width: 'w-32', height: 'h-8' })
                 ) : (
                   <span className="text-base-content opacity-70">
-                    New
+                    📢 News
                   </span>
                 )}
               </h5>
