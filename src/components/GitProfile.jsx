@@ -205,9 +205,10 @@ const GitProfile = ({ config }) => {
                         github={sanitizedConfig.github}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       /> */}
-                      <New
+                      <Publication
                         loading={loading}
-                        news={sanitizedConfig.news}
+                        publications={sanitizedConfig.publications}
+                        googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
                       <ExternalProject
                         loading={loading}
@@ -293,7 +294,6 @@ GitProfile.propTypes = {
       limit: PropTypes.number.isRequired,
     }),
       
-
     publications: PropTypes.arrayOf(
       PropTypes.shape({
         title: PropTypes.string.isRequired,
