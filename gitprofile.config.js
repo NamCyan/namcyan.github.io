@@ -119,7 +119,7 @@ const config = {
       },
       {
         data: "Oct 8, 2023", 
-        content: "🎉 Our paper “The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation” has been accepted to EMNLP 2023."
+        content: "🎉 Our paper “The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation” has been accepted to Findings of EMNLP 2023."
       },
     ],
     limit: 3
