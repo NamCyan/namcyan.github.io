@@ -8,8 +8,7 @@ const ListItem = ({ date, content }) => (
       className="absolute w-2 h-2 bg-base-300 rounded-full border border-base-300 mt-1.5"
       style={{ left: '-4.5px' }}
     ></div>
-    <div className="my-0.5 text-xs">{date}</div>
-    <h3 className="font-semibold">{content}</h3>
+    <h3 className="font-semibold"><b>{date}:</b> {content}</h3>
   </li>
 );
 
