@@ -1,154 +1,88 @@
-import PropTypes from 'prop-types';
+import { skeleton } from '../../helpers/utils';
 import { Fragment } from 'react';
-import { AiOutlineFork, AiOutlineStar } from 'react-icons/ai';
-import { MdInsertLink } from 'react-icons/md';
-import { ga, languageColor, skeleton } from '../../helpers/utils';
+import PropTypes from 'prop-types';
 
-const displaySection = (news) => {
-  if (
-    news &&
-    Array.isArray(news) &&
-    news.length
-  ) {
-    return true;
-  } else {
-    return false;
-  }
+const ListItem = ({ date, content }) => (
+  <li className="mb-5 ml-4">
+    <div
+      className="absolute w-2 h-2 bg-base-300 rounded-full border border-base-300 mt-1.5"
+      style={{ left: '-4.5px' }}
+    ></div>
+    <div className="my-0.5 text-xs">{date}</div>
+    <h3 className="font-semibold">{content}</h3>
+  </li>
+);
+
+const New = ({ news, loading }) => {
+  const renderSkeleton = () => {
+    let array = [];
+    for (let index = 0; index < 2; index++) {
+      array.push(
+        <ListItem
+          key={index}
+          date={skeleton({
+            width: 'w-5/12',
+            height: 'h-4',
+          })}
+          content={skeleton({
+            width: 'w-6/12',
+            height: 'h-4',
+            className: 'my-1.5',
+          })}
+        />
+      );
+    }
+
+    return array;
+  };
+  return (
+    <>
+      {news?.length !== 0 && (
+        <div className="card shadow-lg compact bg-base-100">
+          <div className="card-body">
+            <div className="mx-3">
+              <h5 className="card-title">
+                {loading ? (
+                  skeleton({ width: 'w-32', height: 'h-8' })
+                ) : (
+                  <span className="text-base-content opacity-70">
+                    New
+                  </span>
+                )}
+              </h5>
+            </div>
+            <div className="text-base-content text-opacity-60">
+              <ol className="relative border-l border-base-300 border-opacity-30 my-2 mx-4">
+                {loading ? (
+                  renderSkeleton()
+                ) : (
+                  <Fragment>
+                    {news.items.map((item, index) => (
+                      <ListItem
+                        key={index}
+                        date={item.date}
+                        content={item.content}
+                      />
+                    ))}
+                  </Fragment>
+                )}
+              </ol>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+  );
 };
 
-const New = ({ news, loading, googleAnalytics }) => {
-
-  const renderSkeleton = () => {
-    // let array = [];
-    // for (let index = 0; index < news.limit; index++) {
-    //   array.push(
-    return <div className="card shadow-lg compact bg-base-100" key={index}>
-          <div className="flex justify-between flex-col p-8 h-full w-full">
-            <div>
-              <div className="flex items-center">
-                <span>
-                  <h5 className="card-title text-lg">
-                    {skeleton({
-                      width: 'w-32',
-                      height: 'h-8',
-                      className: 'mb-1',
-                    })}
-                  </h5>
-                </span>
-              </div>
-              <div className="mb-5 mt-1">
-                {skeleton({
-                  width: 'w-full',
-                  height: 'h-4',
-                  className: 'mb-2',
-                })}
-                {skeleton({ width: 'w-full', height: 'h-4' })}
-              </div>
-            </div>
-            <div className="flex justify-between">
-              <div className="flex flex-grow">
-                <span className="mr-3 flex items-center">
-                  {skeleton({ width: 'w-12', height: 'h-4' })}
-                </span>
-                <span className="flex items-center">
-                  {skeleton({ width: 'w-12', height: 'h-4' })}
-                </span>
-              </div>
-              <div>
-                <span className="flex items-center">
-                  {skeleton({ width: 'w-12', height: 'h-4' })}
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-  //     );
-  //   }
-
-  //   return array;
-  };
-
-  const renderNews = () => {
-    return news.items.slice(0, news.limit).map((item, index) => (
-      // <a
-      //   className="card shadow-lg compact bg-base-100 cursor-pointer"
-      //   href={item.html_url}
-      //   key={index}
-      //   onClick={(e) => {
-      //     e.preventDefault();
-
-      //     try {
-      //       if (googleAnalytics?.id) {
-      //         ga.event({
-      //           action: 'Click project',
-      //           params: {
-      //             project: item.name,
-      //           },
-      //         });
-      //       }
-      //     } catch (error) {
-      //       console.error(error);
-      //     }
-
-      //     window?.open(item.html_url, '_blank');
-      //   }}
-      // >
-        <div className="flex justify-between flex-col p-8 h-full w-full">
-          <div>
-            <div className="flex items-center">
-              <div className="card-title text-lg tracking-wide flex text-base-content opacity-60">
-                <MdInsertLink className="my-auto" />
-                <b><span>{item.date}</span></b>
-              </div>
-            </div>
-            <p className="mb-5 mt-1 text-base-content text-opacity-60 text-sm">
-              {item.content}
-            </p>
-          </div>
-        </div>
-      // </a>
-    ));
-  };
-
-  return (
-    <Fragment>
-      {displaySection(news) && (
-      <div className="col-span-1 lg:col-span-2">
-        <div className="grid grid-cols-2 gap-6">
-          <div className="col-span-2">
-            <div className="card compact bg-base-100 shadow bg-opacity-40">
-              <div className="card-body">
-                <div className="mx-3 flex items-center justify-between mb-2">
-                  <h5 className="card-title">
-                    {loading ? (
-                      skeleton({ width: 'w-40', height: 'h-8' })
-                    ) : (
-                      <span className="text-base-content opacity-70">
-                        📢 News
-                      </span>
-                    )}
-                  </h5>
-                </div>
-                <div className="col-span-2">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {loading || !news ? renderSkeleton() : renderNews()}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      )}
-    </Fragment>
-  );
+ListItem.propTypes = {
+  date: PropTypes.node,
+  content: PropTypes.node,
 };
 
 New.propTypes = {
   news: PropTypes.object.isRequired,
   loading: PropTypes.bool.isRequired,
-  github: PropTypes.object.isRequired,
-  googleAnalytics: PropTypes.object.isRequired,
 };
 
 export default New;
