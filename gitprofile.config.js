@@ -110,7 +110,7 @@ const config = {
   news: {
     items: [
       {
-        date: "Nov 5, 2023", 
+        date: "Nov 05, 2023", 
         content: "🎉 Our paper “Continual Variational Dropout: A View of Auxiliary Local Variables in Continual Learning” has been accepted to Machine Learning journal."
       },
       {
@@ -118,7 +118,7 @@ const config = {
         content: "✨ Happy to share that I completed the Master degree of Data Science with the excellent score."
       },
       {
-        date: "Oct 8, 2023", 
+        date: "Oct 08, 2023", 
         content: "🎉 Our paper “The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation” has been accepted to Findings of EMNLP 2023."
       },
     ],

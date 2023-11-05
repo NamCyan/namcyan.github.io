@@ -57,7 +57,7 @@ const New = ({ news, loading }) => {
                   renderSkeleton()
                 ) : (
                   <Fragment>
-                    {news.items.map((item, index) => (
+                    {news.items.slice(0, news.limit).map((item, index) => (
                       <ListItem
                         key={index}
                         date={item.date}
