@@ -115,11 +115,11 @@ const config = {
       },
       {
         date: "Oct 28, 2023", 
-        content: "✨ Happy to share that I completed the Master degree of Data Science with the excellent score."
+        content: "✨ Happy to share that I completed the Master of Data Science with the excellent score."
       },
       {
         date: "Oct 08, 2023", 
-        content: "🎉 Our paper “The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation” has been accepted to Findings of EMNLP 2023."
+        content: "🎉 Our paper “The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation” has been accepted to Findings of EMNLP."
       },
     ],
     limit: 3
