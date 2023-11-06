@@ -209,14 +209,14 @@ const GitProfile = ({ config }) => {
                         loading={loading}
                         news={sanitizedConfig.news}
                       />
-                      <ExternalProject
-                        loading={loading}
-                        externalProjects={sanitizedConfig.externalProjects}
-                        googleAnalytics={sanitizedConfig.googleAnalytics}
-                      />
                       <Publication
                         loading={loading}
                         publications={sanitizedConfig.publications}
+                        googleAnalytics={sanitizedConfig.googleAnalytics}
+                      />
+                      <ExternalProject
+                        loading={loading}
+                        externalProjects={sanitizedConfig.externalProjects}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
                       {/* <Blog
