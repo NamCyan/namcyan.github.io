@@ -111,7 +111,7 @@ const config = {
     items: [
       {
         date: "Dec 29, 2023", 
-        content: "🎉 Our paper “Dopamin: Transformer-based Comment Classifiers through Domain Post-Training and Multi-level Layer Aggregation” has been accepted to 3rd Workshop on Natural Language-based Software Engineering (NLBSE 2024), co-located with ICSE 2024.."
+        content: "🎉 Our paper “Dopamin: Transformer-based Comment Classifiers through Domain Post-Training and Multi-level Layer Aggregation” has been accepted to 3rd Workshop on Natural Language-based Software Engineering (NLBSE 2024), co-located with ICSE 2024."
       },
       {
         date: "Nov 05, 2023", 
