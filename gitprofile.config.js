@@ -110,6 +110,10 @@ const config = {
   news: {
     items: [
       {
+        date: "Dec 29, 2023", 
+        content: "🎉 Our paper “Dopamin: Transformer-based Comment Classifiers through Domain Post-Training and Multi-level Layer Aggregation” has been accepted to 3rd Workshop on Natural Language-based Software Engineering (NLBSE 2024), co-located with ICSE 2024.."
+      },
+      {
         date: "Nov 05, 2023", 
         content: "🎉 Our paper “Continual Variational Dropout: A View of Auxiliary Local Variables in Continual Learning” has been accepted to Machine Learning journal."
       },
