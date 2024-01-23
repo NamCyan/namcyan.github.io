@@ -130,6 +130,16 @@ const config = {
   },
   publications: [
     {
+      title: 'Dopamin: Transformer-based Comment Classifiers through Domain Post-Training and Multi-level Layer Aggregation',
+      year: 2024,
+      authors: 'Nam Le Hai and Nghi D. Q. Bui',
+      conference: "[NLBSE'24] Workshop on Natural Language-based Software Engineering",
+      description: 'ai4code | ai4se | comment-classification',
+      keywords: ['ai4code', 'ai4se', 'comment-classification'],
+      imageUrl: 'https://twitter.com/NLBSE_workshop/photo',
+      link:'',
+    },
+    {
       title: 'The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation',
       year: 2023,
       authors: 'Dung Nguyen Manh*, Nam Le Hai*, Anh T. V. Dau, Anh Minh Nguyen, Khanh Nghiem, Jin Guo, and Nghi D. Q. Bui',
