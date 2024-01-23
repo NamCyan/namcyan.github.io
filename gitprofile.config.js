@@ -11,7 +11,7 @@ const config = {
     },
   },
   social: {
-    linkedin: 'https://www.linkedin.com/in/le-hai-nam-04a77a225/',
+    linkedin: 'le-hai-nam-04a77a225',
     twitter: '',
     mastodon: '',
     facebook: '',
