@@ -136,7 +136,7 @@ const config = {
       conference: "[NLBSE'24] Workshop on Natural Language-based Software Engineering",
       description: 'ai4code | ai4se | comment-classification',
       keywords: ['ai4code', 'ai4se', 'comment-classification'],
-      imageUrl: 'https://twitter.com/NLBSE_workshop/photo',
+      imageUrl: 'https://pbs.twimg.com/profile_images/1711325999160258560/we_wt3Q6_400x400.jpg',
       link:'',
     },
     {
