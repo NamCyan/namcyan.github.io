@@ -249,7 +249,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Profile page of Nam Le Hai 🤗`,
+  footer: `🤗 Nam Le Hai 🇻🇳`,
 };
 
 export default config;
