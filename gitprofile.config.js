@@ -100,6 +100,13 @@ const config = {
       imageUrl: 'https://i.pinimg.com/564x/c9/ca/2a/c9ca2a4c0f585ef61671e263a0d55411.jpg',
       link: 'https://github.com/NamCyan/hackathon-quynhonai-2022',
     },
+    {
+      title: 'Best Thesis Presentation Award at Hanoi University of Science and Technology',
+      description:
+        'thesis || Bachelor degree || HUST',
+      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Logo_Hust.png/1200px-Logo_Hust.png',
+      link: '',
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
@@ -147,7 +154,7 @@ const config = {
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ['ai4code', 'ai4se', 'dataset', 'code-understanding', 'code-generation'],
       imageUrl: 'https://www.am.ai/static/553caff9083f9234c51c1732a6bcf827/8c557/logo_emnlp.png',
-      link: 'https://arxiv.org/abs/2305.06156',
+      link: 'https://aclanthology.org/2023.findings-emnlp.316/',
     },
     {
       title: 'Continual Variational Dropout: A View of Auxiliary Local Variables in Continual Learning',
@@ -157,7 +164,7 @@ const config = {
       description: 'continual-learning | dropout | auxiliary-variables',
       keywords: ["continual-learning", "variational-dropout", "auxiliary-variables"],
       imageUrl: 'https://media.springernature.com/w138/springer-static/cover/journal/10994/112/11.jpg',
-      link: '',
+      link: 'https://link.springer.com/article/10.1007/s10994-023-06487-7',
     },
     {
       title: 'Auxiliary Local Variables for Improving Regularization/Prior Approach in Continual Learning',
