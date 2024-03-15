@@ -101,7 +101,7 @@ const config = {
       link: 'https://github.com/NamCyan/hackathon-quynhonai-2022',
     },
     {
-      title: 'Best Thesis Presentation Award at Hanoi University of Science and Technology',
+      title: 'Best Thesis Presentation Award at Hanoi University of Science and Technology 2021',
       description:
         'thesis || Bachelor degree || HUST',
       imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Logo_Hust.png/1200px-Logo_Hust.png',
