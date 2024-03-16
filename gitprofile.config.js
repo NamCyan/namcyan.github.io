@@ -66,19 +66,25 @@ const config = {
       name: 'TOEIC',
       body: 'Score: 865',
       year: 'Oct 2023',
-      link: ''
+      link: 'https://drive.google.com/file/d/1geQ9iXZZoe7-HMWQHNXRCLwn3bIzwJZ7/view?usp=sharing'
+    },
+    {
+      name: 'Best Presentation Award',
+      body: 'Bachelor Thesis',
+      year: 'May 2021',
+      link: 'https://drive.google.com/file/d/15xtArinu6x4XyVT1417BLrXpaHc2owub/view?usp=sharing'
     },
   ],
   education: [
     {
       institution: 'Hanoi University of Science and Technology',
-      degree: 'Bachelor',
+      degree: 'Bachelor of Computer Science',
       from: '2017',
       to: '2021',
     },
     {
       institution: 'Hanoi University of Science and Technology',
-      degree: 'Master',
+      degree: 'Master of Computer Science',
       from: '2021',
       to: '2023',
     },
