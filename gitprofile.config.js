@@ -80,6 +80,12 @@ const config = {
       year: 'April 2024',
       link: ''
     },
+    {
+      name: 'VSTEP',
+      body: 'Score: 7.5',
+      year: 'May 2024',
+      link: ''
+    },
   ],
   education: [
     {
@@ -120,7 +126,7 @@ const config = {
       link: '',
     },
     {
-      title: '1st place at NLBSE Code Comment Clasification task',
+      title: '1st place at NLBSE Code Comment Clasification Competition',
       description:
         'nlbse2024 | ai4se | comment classification',
       imageUrl: 'https://pbs.twimg.com/profile_images/1711325999160258560/we_wt3Q6_400x400.jpg',
@@ -137,7 +143,7 @@ const config = {
     items: [
       {
         date: "Apr 20, 2024", 
-        content: "🎉 Our paper- Dopamin achieved the Best Tool Award in the NLBSE2024 Tool Competition."
+        content: "🎉 Our paper- Dopamin achieved the Best Tool Award at the NLBSE2024 Tool Competition."
       },
       {
         date: "Dec 29, 2023", 
