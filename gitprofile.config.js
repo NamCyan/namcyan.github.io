@@ -63,16 +63,16 @@ const config = {
   ],
   certifications: [
     {
-      name: 'TOEIC',
-      body: 'Score: 865',
-      year: 'Oct 2023',
-      link: 'https://drive.google.com/file/d/1geQ9iXZZoe7-HMWQHNXRCLwn3bIzwJZ7/view?usp=sharing'
-    },
-    {
       name: 'Best Presentation Award',
       body: 'Bachelor Thesis',
       year: 'May 2021',
       link: 'https://drive.google.com/file/d/15xtArinu6x4XyVT1417BLrXpaHc2owub/view?usp=sharing'
+    },
+    {
+      name: 'TOEIC',
+      body: 'Score: 865',
+      year: 'Oct 2023',
+      link: 'https://drive.google.com/file/d/1geQ9iXZZoe7-HMWQHNXRCLwn3bIzwJZ7/view?usp=sharing'
     },
     {
       name: 'Best Tool Award',
