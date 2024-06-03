@@ -74,6 +74,12 @@ const config = {
       year: 'May 2021',
       link: 'https://drive.google.com/file/d/15xtArinu6x4XyVT1417BLrXpaHc2owub/view?usp=sharing'
     },
+    {
+      name: 'Best Tool Award',
+      body: 'NLBSE',
+      year: 'April 2024',
+      link: ''
+    },
   ],
   education: [
     {
@@ -113,6 +119,13 @@ const config = {
       imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Logo_Hust.png/1200px-Logo_Hust.png',
       link: '',
     },
+    {
+      title: '1st place at NLBSE Code Comment Clasification task',
+      description:
+        'nlbse2024 | ai4se | comment classification',
+      imageUrl: 'https://pbs.twimg.com/profile_images/1711325999160258560/we_wt3Q6_400x400.jpg',
+      link: 'https://github.com/FSoft-AI4Code/Dopamin',
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
@@ -122,6 +135,10 @@ const config = {
   },
   news: {
     items: [
+      {
+        date: "Apr 20, 2024", 
+        content: "🎉 Our paper Dopamin achieve the Best Tool Award in the NLBSE2024 Tool Competition."
+      },
       {
         date: "Dec 29, 2023", 
         content: "🎉 Our paper “Dopamin: Transformer-based Comment Classifiers through Domain Post-Training and Multi-level Layer Aggregation” has been accepted to 3rd Workshop on Natural Language-based Software Engineering (NLBSE 2024), co-located with ICSE 2024."

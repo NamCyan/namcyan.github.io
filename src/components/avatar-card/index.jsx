@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { fallbackImage, skeleton } from '../../helpers/utils';
 import LazyImage from '../lazy-image';
 
-const avatar = "https://media.licdn.com/dms/image/D5603AQEGENt6v5WqWg/profile-displayphoto-shrink_200_200/0/1692181630800?e=1711584000&v=beta&t=jZDULR7n4lFomHZZJrlU_GnavWdHG--V5ExFMJRS8rc"
+const avatar = "https://media.licdn.com/dms/image/D5603AQEGENt6v5WqWg/profile-displayphoto-shrink_400_400/0/1692181630800?e=1723075200&v=beta&t=uNx3p_hd3tuUXY-0nbJdPJ0LFhgM3J-U8zEnIkvNMWo"
 
 const AvatarCard = ({ profile, loading, avatarRing, resume }) => {
   return (
