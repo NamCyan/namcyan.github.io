@@ -137,7 +137,7 @@ const config = {
     items: [
       {
         date: "Apr 20, 2024", 
-        content: "🎉 Our paper Dopamin achieve the Best Tool Award in the NLBSE2024 Tool Competition."
+        content: "🎉 Our paper- Dopamin achieved the Best Tool Award in the NLBSE2024 Tool Competition."
       },
       {
         date: "Dec 29, 2023", 
