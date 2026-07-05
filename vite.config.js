@@ -21,9 +21,9 @@ export default defineConfig({
       },
       includeAssets: ['logo.png'],
       manifest: {
-        name: 'Portfolio',
-        short_name: 'Portfolio',
-        description: 'Personal Portfolio',
+        name: 'Nam Le Hai — Academic Homepage',
+        short_name: 'Nam Le Hai',
+        description: 'Academic homepage of Nam Le Hai',
         icons: [
           {
             src: 'logo.png',
