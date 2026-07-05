@@ -4,10 +4,8 @@ import Nav from './components/Nav';
 import Hero from './components/Hero';
 import News from './components/News';
 import Publications from './components/Publications';
-import Experience from './components/Experience';
 import Education from './components/Education';
 import Awards from './components/Awards';
-import Skills from './components/Skills';
 import Footer from './components/Footer';
 import './assets/index.css';
 
@@ -21,10 +19,8 @@ function App() {
           <Hero />
           <News />
           <Publications />
-          <Experience />
           <Education />
           <Awards />
-          <Skills />
         </main>
         <Footer />
       </div>

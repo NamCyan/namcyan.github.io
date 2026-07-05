@@ -236,74 +236,6 @@ export const publications = [
   },
 ];
 
-export const experience = {
-  research: [
-    {
-      org: 'Hanoi University of Science and Technology (HUST)',
-      role: 'Lecturer',
-      from: '2025',
-      to: 'present',
-      bullets: [
-        'Instructor for practical classes: Introduction to Informatics, Applied Algorithms, Programming Techniques, Object-oriented Programming, Database.',
-        'Instructor for lecture classes: Software Development Using Large Language Models.',
-      ],
-    },
-    {
-      org: 'FPT Software AI Center',
-      role: 'Research Resident',
-      from: '2022',
-      to: '2025',
-      bullets: [
-        'Researched algorithms and datasets in AI for Software Engineering, supervised by Dr. Bui Duy Quoc Nghi.',
-        'Topics: programming language foundation models, code generation and understanding, trustworthy AI in software engineering.',
-      ],
-    },
-    {
-      org: 'Data Science Lab, HUST',
-      role: 'Research Assistant',
-      from: '2018',
-      to: '2021',
-      bullets: [
-        'Researched continual learning algorithms for computer vision and NLP problems, supervised by Dr. Ngo Van Linh.',
-        'Topics: continual learning, natural language processing.',
-      ],
-    },
-  ],
-  industry: [
-    {
-      org: 'MobiFone IT Center',
-      role: 'NLP Engineer',
-      from: '2022',
-      to: '2022',
-      bullets: [
-        'Worked on a speech-to-text model for a call bot.',
-        'Built a spelling-correction model for the output of the S2T model.',
-      ],
-    },
-    {
-      org: 'VCCorp Corporation',
-      role: 'NLP Engineer',
-      from: '2021',
-      to: '2021',
-      bullets: [
-        'Built an aspect-based sentiment analysis system for F&B customers.',
-        'Built and deployed the API for the AI model and managed the labeling process.',
-      ],
-    },
-  ],
-  service: [
-    {
-      org: 'National AI Olympiad Team',
-      role: 'Problem-Setting Committee Member',
-      from: '2026',
-      to: '2026',
-      bullets: [
-        'Contributed to the design and evaluation of tasks for the National Artificial Intelligence Olympiad.',
-      ],
-    },
-  ],
-};
-
 export const education = [
   {
     institution: 'Hanoi University of Science and Technology (HUST)',
@@ -349,19 +281,4 @@ export const awards = [
     title: 'Best Thesis Presentation Award',
     org: 'Hanoi University of Science and Technology',
   },
-];
-
-export const skills = {
-  'Programming Languages': ['Python', 'Java', 'C/C++'],
-  'Deep Learning Frameworks': [
-    'PyTorch',
-    'TensorFlow',
-    'Hugging Face Transformers',
-  ],
-  'ML Libraries': ['OpenCV', 'Scikit-learn', 'NumPy', 'Pandas', 'Matplotlib'],
-};
-
-export const languages = [
-  { name: 'Vietnamese', detail: 'Mother tongue' },
-  { name: 'English', detail: 'B2 — TOEIC 865, VSTEP 7.5' },
 ];

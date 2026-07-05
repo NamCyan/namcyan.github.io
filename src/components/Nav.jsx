@@ -6,10 +6,8 @@ import { profile } from '../data/profile';
 const links = [
   { id: 'news', label: 'News' },
   { id: 'publications', label: 'Publications' },
-  { id: 'experience', label: 'Experience' },
   { id: 'education', label: 'Education' },
   { id: 'awards', label: 'Awards' },
-  { id: 'skills', label: 'Skills' },
 ];
 
 const Nav = () => {
