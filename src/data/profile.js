@@ -42,7 +42,7 @@ export const publications = [
   {
     year: 2026,
     authors:
-      'Dung Le Quang, Dong Cao Van, Nam Le Hai, Linh Ngo Van, Thi-Mai-Anh Bui, Phuong T. Nguyen',
+      'Dung Le Quang, Dong Cao Van, **Nam Le Hai**†, Linh Ngo Van, Thi-Mai-Anh Bui, Phuong T. Nguyen',
     title:
       'XRepoTest: Benchmarking Multilingual Repository-Level Unit Test Generation for Large Language Models',
     venue:
@@ -53,7 +53,7 @@ export const publications = [
   {
     year: 2026,
     authors:
-      'Minh Le-Anh, Nam Le Hai, Quyen Tran, Anh Nguyen Hoang, Linh Ngo Van, Bach Le, Nghi D. Q. Bui ',
+      'Minh Le-Anh, **Nam Le Hai**†, Quyen Tran, Anh Nguyen Hoang, Linh Ngo Van, Bach Le, Nghi D. Q. Bui ',
     title:
       'Beyond Repository Boundaries: Cross-Repository Graph Retrieval for Code Generation',
     venue:
@@ -64,7 +64,7 @@ export const publications = [
   {
     year: 2026,
     authors:
-      'Hoang Thanh Dat, Quoc Phong Dao, Nam Le Hai, Franck Dernoncourt, Linh Ngo Van, Trung Le, Thien Huu Nguyen',
+      'Hoang Thanh Dat, Quoc Phong Dao, **Nam Le Hai**†, Franck Dernoncourt, Linh Ngo Van, Trung Le, Thien Huu Nguyen',
     title:
       'EventKD: Event-Aware Knowledge Distillation for Generative Event Extraction',
     venue:
