@@ -68,7 +68,7 @@ export const publications = [
     title:
       'EventKD: Event-Aware Knowledge Distillation for Generative Event Extraction',
     venue:
-      'Findings of the Association for Computational Linguistics: EMNLP 2026',
+      'Findings of the Association for Computational Linguistics: EMNLP',
     rank: 'A*',
     link: null,
   },
@@ -208,7 +208,7 @@ export const publications = [
     title:
       'Dopamin: Transformer-based Comment Classifiers through Domain Post-Training and Multi-level Layer Aggregation',
     venue:
-      '2024 ACM/IEEE International Workshop on NL-based Software Engineering (NLBSE ’24)',
+      '2024 ACM/IEEE International Workshop on NL-based Software Engineering (NLBSE)',
     rank: null,
     link: 'https://dl.acm.org/doi/abs/10.1145/3643787.3648044',
     note: 'Best Tool Award',
