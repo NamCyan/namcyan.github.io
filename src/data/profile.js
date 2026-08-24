@@ -46,7 +46,7 @@ export const publications = [
     title:
       'XRepoTest: Benchmarking Multilingual Repository-Level Unit Test Generation for Large Language Models',
     venue:
-      'Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026 main)',
+      'Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP main)',
     rank: 'A*',
     link: null,
   },
@@ -57,7 +57,7 @@ export const publications = [
     title:
       'Beyond Repository Boundaries: Cross-Repository Graph Retrieval for Code Generation',
     venue:
-      'Findings of the Association for Computational Linguistics: EMNLP 2026',
+      'Findings of the Association for Computational Linguistics: EMNLP',
     rank: 'A*',
     link: null,
   },
