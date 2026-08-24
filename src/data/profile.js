@@ -16,43 +16,62 @@ export const profile = {
 
 export const news = [
   {
-    date: '2026',
+    date: '8/2026',
     content:
-      'Served on the problem-setting committee of the National AI Olympiad, contributing to the design and evaluation of competition tasks.',
+      '🎉 We have 03 papers accepted to EMNLP 2026 🎉',
   },
   {
-    date: '2026',
+    date: '03/2026',
     content:
-      'Six papers accepted/published in 2026, including venues such as FSE, ACL Findings, Computational Linguistics, and ACM TOSEM — see Publications below.',
+      '🎉 Our paper “Mozila: Continual Event Detection Through the Lens of Multi-Objective Optimization and Language Model Head Preservation” has been accepted for publication in Computational Linguistics (CL)!',
   },
   {
-    date: '2025',
+    date: '03/2026',
     content:
-      'Started as a Lecturer at HUST, teaching courses spanning Introduction to Informatics, Applied Algorithms, OOP, Databases, and Software Development Using Large Language Models.',
+      '🎉 Our paper “Detection of Technical Debt in Java Source Code” has been accepted for publication in ACM Transactions on Software Engineering and Methodology (TOSEM)!',
   },
   {
-    date: '2025',
-    content: 'Began the PhD program in Computer Science at HUST.',
-  },
-  {
-    date: 'Apr 2024',
+    date: '12/2025',
     content:
-      'Our paper "Dopamin" received the Best Tool Award at the NLBSE 2024 Tool Competition.',
-  },
-  {
-    date: 'Dec 2023',
-    content:
-      '"Dopamin: Transformer-based Comment Classifiers through Domain Post-Training and Multi-level Layer Aggregation" accepted to the 3rd Workshop on Natural Language-based Software Engineering (NLBSE 2024), co-located with ICSE 2024.',
-  },
-  {
-    date: 'Oct 2023',
-    content:
-      '"The Vault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation" accepted to Findings of EMNLP 2023.',
+      '🎉 Our paper “Do Not Treat Code as Natural Language: Implications for Repository-Level Code Generation and Beyond” has been accepted to FSE 2026!',
   },
 ];
 
 // rank: A*, A, Q1, etc. link: leave null when no verified URL exists (do not guess).
 export const publications = [
+  {
+    year: 2026,
+    authors:
+      'Dung Le Quang, Dong Cao Van, Nam Le Hai, Linh Ngo Van, Thi-Mai-Anh Bui, Phuong T. Nguyen',
+    title:
+      'XRepoTest: Benchmarking Multilingual Repository-Level Unit Test Generation for Large Language Models',
+    venue:
+      'Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026 main)',
+    rank: 'A*',
+    link: null,
+  },
+  {
+    year: 2026,
+    authors:
+      'Minh Le-Anh, Nam Le Hai, Quyen Tran, Anh Nguyen Hoang, Linh Ngo Van, Bach Le, Nghi D. Q. Bui ',
+    title:
+      'Beyond Repository Boundaries: Cross-Repository Graph Retrieval for Code Generation',
+    venue:
+      'Findings of the Association for Computational Linguistics: EMNLP 2026',
+    rank: 'A*',
+    link: null,
+  },
+  {
+    year: 2026,
+    authors:
+      'Hoang Thanh Dat, Quoc Phong Dao, Nam Le Hai, Franck Dernoncourt, Linh Ngo Van, Trung Le, Thien Huu Nguyen',
+    title:
+      'EventKD: Event-Aware Knowledge Distillation for Generative Event Extraction',
+    venue:
+      'Findings of the Association for Computational Linguistics: EMNLP 2026',
+    rank: 'A*',
+    link: null,
+  },
   {
     year: 2026,
     authors:
@@ -62,7 +81,7 @@ export const publications = [
     venue:
       '34th ACM International Conference on the Foundations of Software Engineering (FSE)',
     rank: 'A*',
-    link: null,
+    link: 'https://dl.acm.org/doi/abs/10.1145/3797144',
   },
   {
     year: 2026,
@@ -72,7 +91,7 @@ export const publications = [
       'MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents',
     venue: 'Findings of the Association for Computational Linguistics (ACL)',
     rank: 'A*',
-    link: null,
+    link: 'https://aclanthology.org/2026.findings-acl.1408/',
   },
   {
     year: 2026,
@@ -81,7 +100,7 @@ export const publications = [
       'Mozila: Continual Event Detection Through the Lens of Multi-Objective Optimization and Language Model Head Preservation',
     venue: 'Computational Linguistics',
     rank: 'Q1',
-    link: null,
+    link: 'https://direct.mit.edu/coli/article/doi/10.1162/COLi.a.617/136052',
   },
   {
     year: 2026,
@@ -90,7 +109,7 @@ export const publications = [
     title: 'Detection of Technical Debt in Java Source Code',
     venue: 'ACM Transactions on Software Engineering and Methodology (TOSEM)',
     rank: 'Q1',
-    link: null,
+    link: 'https://dl.acm.org/doi/abs/10.1145/3801745',
   },
   {
     year: 2026,
@@ -100,7 +119,17 @@ export const publications = [
       'WAVE++: Capturing Within-Task Variance for Continual Relation Extraction with Adaptive Prompting',
     venue: 'Neurocomputing',
     rank: 'Q1',
-    link: null,
+    link: 'https://www.sciencedirect.com/science/article/abs/pii/S0925231226003127?via%3Dihub',
+  },
+  {
+    year: 2026,
+    authors:
+      'Anh Duc Le*, Tu Vu*, **Nam Le Hai***†, Nguyen Thi Ngoc Diep, Linh Ngo Van, Trung Le, Thien Huu Nguyen',
+    title:
+      'Discord: Enhancing knowledge distillation via cross-chain of thought and optimal transport alignment between models with different tokenizers',
+    venue: 'Knowledge-Based Systems',
+    rank: 'Q1',
+    link: 'https://www.sciencedirect.com/science/article/abs/pii/S0950705126013328',
   },
   {
     year: 2025,
@@ -110,7 +139,7 @@ export const publications = [
       'MaGiX: A Multi-Granular Adaptive Graph Intelligence Framework for Enhancing Cross-Lingual RAG',
     venue: 'Findings of EMNLP 2025, pages 5202–5219, Suzhou, China',
     rank: 'A*',
-    link: null,
+    link: 'https://aclanthology.org/2025.findings-emnlp.279/',
   },
   {
     year: 2025,
@@ -121,7 +150,7 @@ export const publications = [
     venue:
       '63rd Annual Meeting of the Association for Computational Linguistics (ACL)',
     rank: 'A*',
-    link: null,
+    link: 'https://aclanthology.org/2025.acl-long.530/',
   },
   {
     year: 2025,
@@ -131,7 +160,7 @@ export const publications = [
       'Enhancing Discriminative Representation in Similar Relation Clusters for Few-Shot Continual Relation Extraction',
     venue: '2025 Conference of the North American Chapter of the ACL (NAACL)',
     rank: 'A',
-    link: null,
+    link: 'https://aclanthology.org/2025.naacl-long.123/',
   },
   {
     year: 2025,
@@ -139,7 +168,7 @@ export const publications = [
     title: 'On the Impacts of Contexts on Repository-Level Code Generation',
     venue: 'Findings of NAACL 2025',
     rank: 'A',
-    link: null,
+    link: 'https://aclanthology.org/2025.findings-naacl.82/',
   },
   {
     year: 2025,
@@ -150,7 +179,7 @@ export const publications = [
     venue:
       'The Thirteenth International Conference on Learning Representations (ICLR)',
     rank: 'A*',
-    link: null,
+    link: 'https://openreview.net/forum?id=CahIEKCu5Q',
   },
   {
     year: 2025,
@@ -160,17 +189,7 @@ export const publications = [
       'Improving Vietnamese-English Cross-Lingual Retrieval for Legal and General Domains',
     venue: '2025 Conference of the North American Chapter of the ACL (NAACL)',
     rank: 'A',
-    link: null,
-  },
-  {
-    year: 2025,
-    authors:
-      'Anh Duc Le*, Tu Vu*, **Nam Le Hai***†, Nguyen Thi Ngoc Diep, Linh Ngo Van, Trung Le, Thien Huu Nguyen',
-    title:
-      'CoT2Align: Cross-Chain of Thought Distillation via Optimal Transport Alignment for Language Models with Different Tokenizers',
-    venue: 'Preprint',
-    rank: null,
-    link: null,
+    link: 'https://aclanthology.org/2025.naacl-short.12/',
   },
   {
     year: 2024,
@@ -181,7 +200,7 @@ export const publications = [
     venue:
       '2024 Conference on Empirical Methods in Natural Language Processing (EMNLP)',
     rank: 'A*',
-    link: null,
+    link: 'https://aclanthology.org/2024.emnlp-main.763/',
   },
   {
     year: 2024,
@@ -191,7 +210,7 @@ export const publications = [
     venue:
       '2024 ACM/IEEE International Workshop on NL-based Software Engineering (NLBSE ’24)',
     rank: null,
-    link: null,
+    link: 'https://dl.acm.org/doi/abs/10.1145/3643787.3648044',
     note: 'Best Tool Award',
   },
   {
