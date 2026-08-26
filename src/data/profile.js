@@ -16,7 +16,7 @@ export const profile = {
 
 export const news = [
   {
-    date: '8/2026',
+    date: '08/2026',
     content:
       '🎉 We have 03 papers accepted to EMNLP 2026 🎉',
   },
